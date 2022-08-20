@@ -14,7 +14,7 @@ let
     libXxf86vm # Needed only for versions <1.13
     libGL
     flite
-    alsa-lib
+    #alsa-lib
   ];
 
   buildVanillaLibraries = artifacts:
